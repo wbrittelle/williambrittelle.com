@@ -44,7 +44,7 @@ li {
   border: 2px solid black;
   /* box-shadow: 5px 5px 0 -2px #fff,
 				5px 5px black; */
-  box-shadow: 5px 5px rgb(147, 147, 147);
+  box-shadow: 4px 4px rgb(240, 110, 207);
   background-color: white;
 }
 
@@ -87,12 +87,27 @@ footer {
   margin-bottom: 2em;
 }
 
+h3 {
+  border-bottom: 1px solid rgb(240, 110, 207);
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+h4 {
+  font-weight: normal;
+}
+.logo {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
 @media only screen and (max-width: 800px) {
   body {
-    font-size: 14px;
+    font-size: 13px;
   }
-
   main {
-    margin: 2em 10%;
+    margin: 2em 15px;
+  }
+  .content {
+    padding: 15px;
   }
 }
