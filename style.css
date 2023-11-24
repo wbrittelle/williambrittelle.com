@@ -5,7 +5,7 @@
   margin: 0;
 }
 html {
-  background-image: url("/images/background.png");
+  background-image: url("./images/background.png");
 }
 
 body {
