@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap");
 
+:root {
+  --wb-gray: rgb(185, 185, 185);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -44,7 +48,7 @@ li {
   border: 2px solid black;
   /* box-shadow: 5px 5px 0 -2px #fff,
 				5px 5px black; */
-  box-shadow: 4px 4px rgb(240, 110, 207);
+  box-shadow: 4px 4px var(--wb-gray);
   background-color: white;
 }
 
@@ -88,7 +92,7 @@ footer {
 }
 
 h3 {
-  border-bottom: 1px solid rgb(240, 110, 207);
+  border-bottom: 1px solid var(--wb-gray);
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
