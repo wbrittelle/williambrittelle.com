@@ -52,6 +52,14 @@ li {
   background-color: white;
 }
 
+.bio {
+  padding: 25px;
+  font-size: 11px;
+}
+
+.bio a {
+  text-decoration: underline;
+}
 main {
   margin: 2em 20%;
 }
